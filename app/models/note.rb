@@ -1,3 +1,4 @@
 class Note < ActiveRecord::Base
-  # add associations here
+  # Notes belong to songs.
+  belongs_to :songs
 end
